@@ -1,6 +1,7 @@
 # ScreenshotSnipper
 
-![ScreenshotSnipper Banner](https://via.placeholder.com/1200x400/00FFFF/000000?text=ScreenshotSnipper)
+![alt text](assets/image.png)
+![alt text](assets/image2.png)
 
 **ScreenshotSnipper** is a desktop screenshot tool built with [Electron](https://www.electronjs.org/). Capture any region, annotate, then save or copy your result.
 
