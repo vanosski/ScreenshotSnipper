@@ -61,7 +61,7 @@ Follow existing style guidelines.
 
 ## License
 
-Licensed under the [Your License Name Here].
+MIT license
 
 ## Acknowledgments
 
