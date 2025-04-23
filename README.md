@@ -15,13 +15,6 @@
 - Toolbar follows selection
 - Cross‑platform: Windows, macOS, Linux
 
-## Screenshots
-
-![Capture and Annotate](https://via.placeholder.com/600x400?text=Capture+and+Annotate)  
-![Annotation Toolbar](https://via.placeholder.com/600x400?text=Annotation+Toolbar)
-
-> Add your own screenshots in an `assets/` folder and update URLs.
-
 ## Installation
 
 ### Prerequisites
