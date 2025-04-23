@@ -1,0 +1,126 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    cursor: crosshair;
+    font-family: sans-serif;
+    background-color: transparent; 
+}
+
+#snippingCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    
+}
+
+
+.toolbar {
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(40, 40, 40, 0.85);
+    border: 1px solid rgba(80, 80, 80, 0.9);
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.vertical-toolbar {
+    flex-direction: column;
+    width: 40px; 
+}
+
+.horizontal-toolbar {
+    flex-direction: row;
+    height: 40px; 
+}
+
+
+.toolbar {
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(20, 20, 20, 0.9); 
+    border: 1px solid rgba(0, 255, 255, 0.3); 
+    border-radius: 8px; 
+    padding: 6px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2); 
+}
+
+
+.toolbar button {
+    background-color: rgba(30, 30, 30, 0.8); 
+    color: #ffffff; 
+    border: 2px solid transparent; 
+    padding: 0;
+    margin: 3px; 
+    min-width: 32px; 
+    min-height: 32px;
+    font-size: 20px; 
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px; 
+    transition: all 0.2s ease-in-out; 
+    box-shadow: 0 0 8px rgba(0, 255, 255, 0.5), 
+                0 0 12px rgba(0, 255, 255, 0.3);
+}
+
+.toolbar button:hover {
+    background-color: rgba(0, 255, 255, 0.2); 
+    border-color: #00ffff; 
+    box-shadow: 0 0 12px rgba(0, 255, 255, 0.8), 
+                0 0 20px rgba(0, 255, 255, 0.5);
+    transform: scale(1.05); 
+}
+
+
+.toolbar button.selected {
+    background-color: rgba(255, 0, 255, 0.3); 
+    border-color: #ff00ff; 
+    box-shadow: 0 0 12px rgba(255, 0, 255, 0.8), 
+                0 0 20px rgba(255, 0, 255, 0.5);
+}
+
+
+#colorButton {
+    padding: 4px; 
+}
+
+#colorIndicator {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #ffffff; 
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5); 
+    transition: all 0.2s ease-in-out;
+}
+
+#colorButton:hover #colorIndicator {
+    border-color: #00ffff; 
+    box-shadow: 0 0 12px rgba(0, 255, 255, 0.8); 
+}
+
+
+#textInput {
+    position: absolute;
+    z-index: 11;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 2px solid red; 
+    padding: 4px;
+    font-size: 14px;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    resize: none; 
+    overflow: hidden; 
+    display: none; 
+    box-sizing: border-box; 
+}

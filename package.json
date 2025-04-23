@@ -1,0 +1,15 @@
+{
+    "name": "electron-snipping-tool",
+    "version": "1.0.0",
+    "description": "Snipping tool built with Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^28.0.0" 
+    }
+  }
